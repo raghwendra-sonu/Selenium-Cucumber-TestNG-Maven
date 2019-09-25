@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-25T06:48:37.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23640651200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Check page display",
+        "description": "",
+        "id": "home-page-verifications;check-page-display",
+        "after": [
+          {
+            "result": {
+              "duration": 687762700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17337730700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1999718600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User navigates to QATechTesting HomePage",
+            "match": {
+              "location": "HomePageSteps.aUserNavigatesToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1352590600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1999446900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User verify that Blog Link is displayed",
+            "match": {
+              "location": "HomePageSteps.googleLogoIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156898800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000170600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "HomePageSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User verify that Blog page title is displayed",
+            "match": {
+              "location": "BlogPageSteps.blogPageIsDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@blog_page"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Verifications",
+    "description": "",
+    "id": "home-page-verifications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BlogPage/01_VerifyPageName_BlogPage.feature",
+    "tags": []
+  }
+]

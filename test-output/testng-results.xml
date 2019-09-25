@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24035" started-at="2019-09-25T05:14:07Z" finished-at="2019-09-25T05:14:31Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.BlogPageRunner@1ed4004b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="24035" started-at="2019-09-25T05:14:07Z" finished-at="2019-09-25T05:14:31Z">
+      <class name="runner.BlogPageRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.BlogPageRunner@1ed4004b]" name="setUpClass" is-config="true" duration-ms="174" started-at="2019-09-25T05:14:07Z" finished-at="2019-09-25T05:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="before()[pri:0, instance:runner.BlogPageRunner@1ed4004b]" name="before" is-config="true" duration-ms="0" started-at="2019-09-25T05:14:07Z" finished-at="2019-09-25T05:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.BlogPageRunner@1ed4004b]" name="runScenario" duration-ms="23363" started-at="2019-09-25T05:14:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-09-25T05:14:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check page display"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page Verifications"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.BlogPageRunner@1ed4004b]" name="tearDownClass" is-config="true" duration-ms="352" started-at="2019-09-25T05:14:31Z" finished-at="2019-09-25T05:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="after()[pri:0, instance:runner.BlogPageRunner@1ed4004b]" name="after" is-config="true" duration-ms="0" started-at="2019-09-25T05:14:31Z" finished-at="2019-09-25T05:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- runner.BlogPageRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
